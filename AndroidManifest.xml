@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dario.papa"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:icon="@drawable/papa"
+        android:label="@string/app_name" android:description="@string/descrizione"
+        android:screenOrientation="portrait"
+        >
+        <activity
+            android:name=".PapaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter></intent-filter>
+        </activity>
+        <activity android:name=".papa"></activity>
+        <activity android:name=".lista"></activity>
+        <activity android:name=".info"></activity>
+        <activity android:name=".napoli"></activity>
+        <activity android:name=".avellino"></activity>
+        <activity android:name=".caserta"></activity>
+        <activity android:name=".salerno"></activity>
+        <activity android:name=".benevento"></activity>
+        <activity android:name=".mappa"></activity>
+    </application>
+    
+    
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Papa</string>
+    <string name="home">Chi ben smaltisce è a metà dell\'opera!
+
+
+Papa srl da anni si occupa del recupero e del trasporto di oli esausti vegetali.
+
+
+Aiutaci anche tu a riciclare gli oli vegetali esausti.
+
+Nella sezione calendario puoi verificare dove e quando puoi conferire l\'olio vegetale esausto.</string>
+    <string name="info">Sede legale: Via Piave, 174 is.75 - 80126 Napoli 
+Sede operativa: c/o Proteg spa - zona A.S.I. Pascarola - Caivano (NA) 
+
+Tel. 081/8349746 - fax 081/8360864.</string>
+
+    <color name="testi">#1E549E</color>
+    <string name="chiamaci">Chiamaci</string>
+    <string name="descrizione">Papa s.r.l. App smaltimento olio usato</string>
+    <string name="campania">campania</string>
+    
+    
+    <string-array name="mappa">
+        <item >Campania</item>
+        <item >Toscana</item>
+    </string-array>
+    
+
+
+
+</resources>
